@@ -2,793 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9bc1ed0-3bbc-4973-9300-1e29c4e12495" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/doit-insta.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/application/ParseHTML.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/doitbot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/instaapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/0002_connectionobjectd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/0003_auto_20180708_1757.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/0004_auto_20180708_1828.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/jquery.easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/css/uniform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/font-awesome/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/av1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/av2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/av3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/av4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/av5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/demo-image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/demo-image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/demo-image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/demo/envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gallery/imgbox1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gallery/imgbox2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gallery/imgbox3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gallery/imgbox4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gallery/imgbox5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/cabinet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/piechart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/shopping-bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/survey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/16/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/cabinet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/piechart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/shopping-bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/survey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/icons/32/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/menu-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.peity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.ui.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.uniform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/jquery.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/masked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.form_common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.form_validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.interface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.tables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/matrix.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/application/js/wysihtml5-0.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/accounts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/add_account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/config/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/config/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/config/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/config/jquery-slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/config/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/find-and-like-by-tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/loginpartial.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/old templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/old templates/layout_old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/update_account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/work-with-account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/theBot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/userinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doitinsta/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doitinsta/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doitinsta/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doitinsta/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/jquery.easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/matrix-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/matrix-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/matrix-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/css/uniform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/font-awesome/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/av1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/av2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/av3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/av4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/av5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/demo-image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/demo-image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/demo-image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/demo/envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gallery/imgbox1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gallery/imgbox2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gallery/imgbox3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gallery/imgbox4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gallery/imgbox5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/cabinet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/piechart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/shopping-bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/survey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/16/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/cabinet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/piechart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/shopping-bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/survey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/icons/32/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/larrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/menu-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/rarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.peity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.ui.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.uniform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/jquery.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/masked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.form_common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.form_validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.interface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.tables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/matrix.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/application/js/wysihtml5-0.3.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -798,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="accounts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/accounts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="697">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -814,10 +33,100 @@
       <file leaf-file-name="work-with-account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/work-with-account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_account.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/templates/update_account.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#484#2084#0" />
+                <element signature="e#2120#2483#0" />
+                <element signature="e#2514#5086#0" />
+                <element signature="e#5120#6263#0" />
+                <element signature="e#6302#6444#0" />
+                <element signature="e#6487#8104#0" />
+                <element signature="e#8226#8652#0" />
+                <element signature="e#8845#9985#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#form#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseHTML.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/ParseHTML.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instaapi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/instaapi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -826,74 +135,8 @@
       <file leaf-file-name="find-and-like-by-tag.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/templates/find-and-like-by-tag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/add_account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_account.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/templates/update_account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1294">
-              <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doitinsta/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="100" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -910,12 +153,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>{% url</find>
-      <find>tuki</find>
-      <find>welcome</find>
-      <find>search</find>
-      <find>News updates</find>
-      <find>login</find>
-      <find>quick-actions_homepage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -924,33 +161,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/application/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/application/templates/add_account.html" />
         <option value="$PROJECT_DIR$/application/templates/edit_account.html" />
+        <option value="$PROJECT_DIR$/application/templates/accounts.html" />
         <option value="$PROJECT_DIR$/application/doitbot.py" />
         <option value="$PROJECT_DIR$/doitinsta/urls.py" />
+        <option value="$PROJECT_DIR$/application/templates/find-and-like-by-tag.html" />
         <option value="$PROJECT_DIR$/application/theBot.py" />
         <option value="$PROJECT_DIR$/application/insta-api.py" />
         <option value="$PROJECT_DIR$/application/forms.py" />
+        <option value="$PROJECT_DIR$/application/templates/work-with-account.html" />
         <option value="$PROJECT_DIR$/application/userinfo.py" />
         <option value="$PROJECT_DIR$/application/instaapi.py" />
         <option value="$PROJECT_DIR$/application/models.py" />
         <option value="$PROJECT_DIR$/application/ParseHTML.py" />
         <option value="$PROJECT_DIR$/application/views.py" />
-        <option value="$PROJECT_DIR$/application/templates/dashboard.html" />
-        <option value="$PROJECT_DIR$/application/templates/accounts.html" />
-        <option value="$PROJECT_DIR$/application/templates/login.html" />
         <option value="$PROJECT_DIR$/application/templates/layout.html" />
-        <option value="$PROJECT_DIR$/application/templates/find-and-like-by-tag.html" />
-        <option value="$PROJECT_DIR$/application/templates/work-with-account.html" />
-        <option value="$PROJECT_DIR$/application/templates/add_account.html" />
-        <option value="$PROJECT_DIR$/application/templates/update_account.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1364" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="260" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -962,30 +197,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="doit-insta-crawler-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit-insta-crawler-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="doit-insta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit-insta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="doit-insta-crawler-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit-insta-crawler-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="doit-insta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit-insta" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="doit-insta-crawler-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit-insta-crawler-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit-insta-crawler-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit-insta-crawler-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="doit-insta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit-insta" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="old templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="doit-insta-crawler-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit-insta-crawler-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="doit-insta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit-insta" type="462c0819:PsiDirectoryNode" />
               <item name="doitinsta" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -1037,7 +265,7 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1051,21 +279,21 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
@@ -1082,139 +310,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/templates/accounts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5287">
-          <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4709">
-          <caret line="277" column="8" selection-start-line="277" selection-start-column="8" selection-end-line="291" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/old templates/layout_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="146" column="74" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="74" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/application/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/accounts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/work-with-account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/update_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4964">
-          <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/ParseHTML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/instaapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/find-and-like-by-tag.html">
+    <entry file="file://$PROJECT_DIR$/application/templates/add_account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/application/templates/edit_account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="171" column="12" lean-forward="true" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/services.html" />
-    <entry file="file://$PROJECT_DIR$/application/templates/edit_account.html" />
     <entry file="file://$PROJECT_DIR$/application/doitbot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,62 +355,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/insta-api.py" />
-    <entry file="file://$PROJECT_DIR$/application/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/userinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/instaapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/ParseHTML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/loginpartial.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/old templates/layout_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="146" column="74" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1294">
-          <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/insta-api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1295,65 +375,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/application/templates/find-and-like-by-tag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/application/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/work-with-account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/accounts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="697">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/find-and-like-by-tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/add_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/update_account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="374">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/work-with-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
+          <folding>
+            <element signature="e#47#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/instaapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/ParseHTML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#484#2084#0" />
+            <element signature="e#2120#2483#0" />
+            <element signature="e#2514#5086#0" />
+            <element signature="e#5120#6263#0" />
+            <element signature="e#6302#6444#0" />
+            <element signature="e#6487#8104#0" />
+            <element signature="e#8226#8652#0" />
+            <element signature="e#8845#9985#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#form#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

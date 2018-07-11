@@ -1,8 +1,10 @@
 {% extends "layout.html" %}
-{% block content %} 
+
 {% if user.is_authenticated %}
+{% block content %} 
+
 <div class="quick-actions_homepage">
-      <ul class="quick-actions">
+      <ul class="quick-actions pull-right">
       	
         <li class="bg_lb"> <a href=""> <i class="icon-dashboard"></i> <span class="label label-important">20</span>My Dashboard</a> </li>
         <li class="bg_ly"> <a href=""> <i class="icon-inbox"></i><span class="label label-success">101</span> My Accounts </a> </li>
@@ -425,5 +427,6 @@
       </div>
     </div>
 
-{% endif %}
+
 {% endblock %}
+{% endif %}
