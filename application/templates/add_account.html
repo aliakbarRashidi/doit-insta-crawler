@@ -1,28 +1,71 @@
 {% extends "layout.html" %}
 {% block content %}
-
-<div class="row">
-<div class="col">
-	<h4>Add Account</h4>
-<form method="post">
-{% csrf_token %}
-<table width="50%">
-<tr><td>Name: </td><td><input class="form-control" name="name" id="name" value="{{ message.name }}"></td></tr>
-<tr><td>Username: </td><td><input class="form-control" name="username" id="username" value="{{ message.username }}"></td></tr>
-<tr><td>Password: </td><td><input class="form-control" name="password" id="password" value="{{ message.password }}"></td></tr>
-<tr><td>Host: </td><td><input class="form-control" name="host" id="host" value="{{ message.host }}"></td></tr>
-<tr><td>Port: </td><td><input class="form-control" name="port" id="port" value="{{ message.port }}"></td></tr>
-<tr><td>Key_1: </td><td><input class="form-control" name="key_1" id="key_1" value="{{ message.key_1 }}"></td></tr>
-    <tr><td>Key_2: </td><td><input class="form-control" name="key_2" id="key_2" value="{{ message.key_2 }}"></td></tr>
-    <tr><td>Key_3: </td><td><input class="form-control" name="key_3" id="key_3" value="{{ message.key_3 }}"></td></tr>
-</table>
-
-
-<br>
-<hr>
-  <button type="submit" name="save_save" value="edit_save">SAVE</button> 
-  <button type="submit" name="cancel_save" value="cancel_save">CANCEL</button>
-</form>
+{% if user.is_authenticated %}
+<div class="row-fluid">
+    <div class="span6">
+<div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>Add new account</h5>
+        </div>
+        <div class="widget-content nopadding">
+         <form method="post" class="form-horizontal">
+             {% csrf_token %}
+             <div class="control-group">
+              <label class="control-label">Account Name :</label>
+              <div class="controls">
+                <input class="span11" name="name" id="name" value="{{ message.name }}" />
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Username :</label>
+              <div class="controls">
+                <input class="span11" name="username" id="username" value="{{ message.username }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Password :</label>
+              <div class="controls">
+                <input class="span11" name="password" id="password" value="{{ message.password }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Host :</label>
+              <div class="controls">
+                <input class="span11" name="host" id="host" value="{{ message.host }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Port :</label>
+              <div class="controls">
+                <input class="span11" name="port" id="port" value="{{ message.port }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_1 :</label>
+              <div class="controls">
+                <input class="span11" name="key_1" id="key_1" value="{{ message.key_1 }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_2 :</label>
+              <div class="controls">
+                <input class="span11" name="key_2" id="key_2" value="{{ message.key_2 }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_3 :</label>
+              <div class="controls">
+                <input class="span11" name="key_3" id="key_3" value="{{ message.key_3 }}">
+              </div>
+            </div>
+             <div class="form-actions">
+                <button type="submit" class="btn btn-success" name="save_save" value="edit_save">SAVE</button>
+                <button type="submit" class="btn btn-danger" name="cancel_save" value="cancel_save">CANCEL</button>
+             </div>
+        </form>
+        </div>
+      </div>
+    </div>
 </div>
-</div>
+{% endif %}
 {% endblock %}

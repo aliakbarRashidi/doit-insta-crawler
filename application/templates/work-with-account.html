@@ -1,37 +1,35 @@
 {% extends "layout.html" %}
 {% block content %}
+{% if user.is_authenticated %}
+<div class="quick-actions_homepage">
+      <ul class="quick-actions">
 
-<div class="row">
-<div class="col">
-    <p>{{ title }}</p>
-    <hr>
-        <p>Connection status: {{ message }}</p>
-        <p>Account name: {{ account }}</p>
-        <p>Number of followers: null</p>
-    <!--
-    <h4>Followers</h4>
-    {% for item in followers %}
-    <p>{{ item.username }}</p>
-    {% endfor %}
--->
-    <hr>
-
-<form id="tag_form" method="post" class="form-group form-inline left">
-{% csrf_token %}
-
-<hr>
-    <input class="form-control" style="height: 25px; font-size: 12px; line-height: 12px;" id="tag_name" type="text" name="tag_name" maxlength="100" placeholder="Tag" required /><br>
-    <input class="form-control" style="height: 25px; font-size: 12px; line-height: 12px;" id="tag_number" type="text" name="tag_number" maxlength="100" placeholder="Number of tags" required />
-    {% csrf_token %}
-
-    <button style="height: 25px; font-size: 12px; line-height: 12px;"  name="like_by_tag" value="like_by_tag">LIKE</button>
-</form>
-    <hr>
-    <form id = "tag_form" action="/find-and-like-by-tag/" method="post" class="form-group form-inline ">
-        {% csrf_token %}
-  <button style="height: 25px; font-size: 12px; line-height: 12px;"  name="cancel_back" value="cancel_back">BACK</button>
-</form>
-    <hr>
+        <li class="bg_lb"> <a href=""> <i class="icon-dashboard"></i>{{ message }}</a> </li>
+        <li class="bg_ls"> <a href=""> <i class="icon-th"></i>Followers null</a> </li>
+        <li class="bg_ly"> <a href=""> <i class="icon-th"></i>Following null</a> </li>
+        <li class="bg_lb"> <a href=""> <i class="icon-dashboard"></i>Messages null</a> </li>
+        <li class="bg_lg"> <a href=""> <i class="icon-th"></i>Reports<br>null</a> </li>
+        <li class="bg_lo"> <a href=""> <i class="icon-th"></i>Post<br>null</a> </li>
+      </ul>
 </div>
+
+<div class="widget-box">
+	<div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+		<h5>Insert a tag name and like posts</h5>
+	</div>
+	<div class="widget-content nopadding updates collapse in" id="collapseG3">
+		<div class="new-update clearfix"><i class="icon-plane"></i>
+            <p>Script will like random posts on Instagram.</p>
+            <hr>
+            <form id = "tag_form" action="/find-and-like-by-tag/" method="post" class="form-group form-inline ">
+                    {% csrf_token %}
+              <button style="height: 25px; font-size: 12px; line-height: 12px;" class="btn btn-primary"  name="cancel_back" value="cancel_back">Like</button>
+            </form>
+
+
+		</div>
+
+	</div>
 </div>
+{% endif %}
 {% endblock %}
