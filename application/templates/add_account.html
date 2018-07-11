@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+{% block content %}
+{% if user.is_authenticated %}
+<div class="row-fluid">
+    <div class="span6">
+<div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>Add new account</h5>
+        </div>
+        <div class="widget-content nopadding">
+         <form method="post" class="form-horizontal">
+             {% csrf_token %}
+             <div class="control-group">
+              <label class="control-label">Account Name :</label>
+              <div class="controls">
+                <input class="span11" name="name" id="name" value="{{ message.name }}" />
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Username :</label>
+              <div class="controls">
+                <input class="span11" name="username" id="username" value="{{ message.username }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Password :</label>
+              <div class="controls">
+                <input class="span11" name="password" id="password" value="{{ message.password }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Host :</label>
+              <div class="controls">
+                <input class="span11" name="host" id="host" value="{{ message.host }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Port :</label>
+              <div class="controls">
+                <input class="span11" name="port" id="port" value="{{ message.port }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_1 :</label>
+              <div class="controls">
+                <input class="span11" name="key_1" id="key_1" value="{{ message.key_1 }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_2 :</label>
+              <div class="controls">
+                <input class="span11" name="key_2" id="key_2" value="{{ message.key_2 }}">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">Key_3 :</label>
+              <div class="controls">
+                <input class="span11" name="key_3" id="key_3" value="{{ message.key_3 }}">
+              </div>
+            </div>
+             <div class="form-actions">
+                <button type="submit" class="btn btn-success" name="save_save" value="edit_save">SAVE</button>
+                <button type="submit" class="btn btn-danger" name="cancel_save" value="cancel_save">CANCEL</button>
+             </div>
+        </form>
+        </div>
+      </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

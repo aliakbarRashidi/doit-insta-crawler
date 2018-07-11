@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+
+{% block content %} 
+
+{% if user.is_authenticated %}
+
+<table><tr><th>{{ message_success }}</th></tr></table><br>
+
+<div class="widget-box">
+          <div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+            <h5>Accounts & Connection Datas</h5>
+          </div>
+          <div class="widget-content nopadding updates collapse in" id="collapseG3">
+            {% for item in message %}
+            <div class="new-update clearfix"><i class="icon-ok-sign"></i>
+              <div class="update-done"><a title="" href="update_account/acc-{{ item.id }}"><strong>{{ item.name }}.</strong></a> <span>[{{ item.username }} - {{ item.host }}]</span> </div>
+
+              <!--<div class="update-date"><a href="update_account/acc-{{ item.id }}"><img width="15" height="15" src="https://use.fontawesome.com/releases/v5.0.13/svgs/regular/edit.svg" /></a></div>
+              <div class="update-date"><a href="delete_account/acc-{{ item.id }}"><img width="10" height="10" src="https://use.fontawesome.com/releases/v5.0.13/svgs/regular/trash-alt.svg" /></a></div>-->
+            </div>
+              {% endfor %}
+             </div>
+        </div>
+
+
+            <h5>Search & Add new</h5>
+
+            <form id="accounts_form" action="/accounts/" method="post" class="form-group form-inline ">
+            <input class="form-control" style="height: 25px; font-size: 12px; line-height: 12px;" id="accounts_form" type="text" name="accounts_form" maxlength="100" placeholder="Anything" required />
+            {% csrf_token %}
+
+            <input class="form-control" style="height: 25px; font-size: 12px; line-height: 12px;" type="submit" value="Search" / ><a href="{% url 'add_account' %}" class="pull-right">Add new account</a>
+            </form>
+
+{% endif %}
+{% endblock %}
