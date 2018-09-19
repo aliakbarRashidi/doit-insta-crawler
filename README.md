@@ -10,7 +10,7 @@ This is simple user friendly dashboard with authorization where the user is able
     
 2.) Install virtual enviroment and activate it
 
-    `vritaulenv`
+    `vritaulenv -p python3 env`
     
     `env/Scripts/activate`
     
